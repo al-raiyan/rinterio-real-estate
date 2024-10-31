@@ -29,18 +29,15 @@
       }
     </style>
     <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            backgroundImage: {
-              'form-bg': "url('/assets/bg.jpg')",
-            colors: {
-              clifford: '#da373d',
-              'ui-color': '#ABEF5F',
+        tailwind.config = {
+          theme: {
+            extend: {
+              backgroundImage: {
+                'form-bg': "url('/assets/bg.jpg')",
             },
           },
-        },
-      };
+        };
+      }
     </script>
     <title>Rinterio</title>
   </head>
@@ -233,8 +230,8 @@
             </p>
           </div>
           <div class="p-6 text-left bg-green-200 rounded-lg">
-            <h3 class="text-lg font-semibold text-blue-800">Supervision</h3>
             <img src="/assets/vision.png" alt="Supervision" />
+            <h3 class="text-lg font-semibold text-blue-800">Supervision</h3>
             <p class="text-gray-600">
               Effective supervision is not about control, but about guidance,
               support, and fostering growth." — Unknown Empower, inspire, and
@@ -298,7 +295,31 @@
         </form>
       </section>
     </main>
-    <!-- footer section -->
-    <footer></footer>
+    <!-- Footer -->
+    <footer class="px-4 py-8 text-center bg-black text-gray-100 lg:px-24">
+      <a href="#" class="text-2xl font-bold text-white"
+        ><i
+          class="fa-solid text-black fa-arrow-right bg-lime-500 p-1 rounded-full -rotate-45"
+        ></i>
+        Rinterio</a
+      >
+      <p class="mt-4 text-gray-500">
+        The barn house captivates with its blend of rustic charm and modern
+        sophistication, featuring weathered wood, sleek metal accents.
+      </p>
+      <div class="mt-4 space-x-20">
+        <a href="#" class="text-gray-400 hover:text-green-500">Home</a>
+        <a href="#" class="text-gray-400 hover:text-green-500">Services</a>
+        <a href="#" class="text-gray-400 hover:text-green-500">Portfolio</a>
+        <a href="#" class="text-gray-400 hover:text-green-500">Blog</a>
+        <a href="#" class="text-gray-400 hover:text-green-500">Contact Us</a>
+      </div>
+      <a class="btn bg-lime-500 rounded-3xl mt-10"
+        >Book Consult
+        <i
+          class="fa-solid fa-arrow-right bg-black text-white p-2 rounded-full -rotate-45"
+        ></i>
+      </a>
+    </footer>
   </body>
 </html>
